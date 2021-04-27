@@ -1,0 +1,51 @@
+/* Va theme Chalk Variables */
+// 颜色 size范围
+$color-black: #333 !default;
+$color-white: #ffffff !default;
+$color-grey: #888 !default;
+$color-green: #19be6b !default;
+$color-blue: #61c3ff !default;
+$color-yellow: #ff9900 !default;
+$color-red: #f35958 !default;
+
+$color-title: #17233d !default;
+$color-content: #515a6e !default;
+$color-disabled: #c5c8ce !default;
+
+$bg-grey: #f5f5f5 !default;
+$bg-white: #ffffff !default;
+$bg-black: #2f2f2f !default;
+
+$color-border: #dcdfe6 !default;
+
+// 主题背景色
+$bg-colors: (
+  'white': $bg-white,
+  'black': $bg-black,
+  'grey': $bg-grey,
+  'green': $color-green,
+  'blue': $color-blue,
+  'yellow': $color-yellow,
+  'red': $color-red,
+) !default;
+
+// 文本颜色
+$text-colors: (
+  'white': $color-white,
+  'black': $color-black,
+  'grey': $color-grey,
+  'green': $color-green,
+  'blue': $color-blue,
+  'yellow': $color-yellow,
+  'red': $color-red,
+  'title': $color-title,
+  'content': $color-content,
+  'disabled': $color-disabled
+) !default;
+
+// dialog 
+
+$--dialog-container-padding: 0 10px !default
+
+// layout - flex
+

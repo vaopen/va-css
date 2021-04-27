@@ -1,0 +1,33 @@
+{
+  "name": "va-theme-chalk",
+  "version": "0.1.2",
+  "description": "A library for va-theme-chalk",
+  "main": "lib/index.css",
+  "style": "lib/index.css",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "docs:dev": "vuepress dev docs & gulp watch",
+    "docs:build": "gulp build && vuepress build docs"
+  },
+  "keywords": [
+    "css",
+    "va-theme-chalk",
+    "sass"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^9.1.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "4.1.0",
+    "vuepress": "^1.8.0"
+  },
+  "dependencies": {}
+}

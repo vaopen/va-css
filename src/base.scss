@@ -1,0 +1,38 @@
+@import "mixins/mixins";
+@import "common/var";
+
+// container - padding
+@include b(container) {
+  padding: $--dialog-container-padding;
+}
+
+// flex 布局
+@include b(flex) {
+  display: flex;
+  @include b(col) {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+}
+
+@include b(flex-column) {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+@for $i from 0 through 24 {
+  .#{$namespace}-col-#{$i} {
+    flex: none;
+    width: (1 / 24 * $i * 100) * 1%;
+  }
+
+  .#{$namespace}-col-offset-#{$i} {
+    margin-left: (1 / 24 * $i * 100) * 1%;
+  }
+}
