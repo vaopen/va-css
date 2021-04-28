@@ -22,7 +22,7 @@
   flex-direction: column;
 }
 
-.flex-wrap {
+@include b(flex-wrap) {
   flex-wrap: wrap;
 }
 

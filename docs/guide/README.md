@@ -7,7 +7,7 @@
 
 ```Shell
 # 最新稳定版
-$ npm install va-theme-chalk
+$ npm install va-bootstrap-css
 ```
 
 

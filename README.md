@@ -1,4 +1,4 @@
-## va-theme-chalk 简介
+## va-bootstrap-css 简介
 
 - 通过组合class方式快速开发样式
 - 项目采用`scss`, `gulp`构建, 减少了书写大量基本css样式所需要的时间。
@@ -6,8 +6,8 @@
 
 ## 项目中引入
 
-- `npm install va-theme-chalk`
--  main.ts文件中引入`import 'va-theme-chalk/lib/index.css'`
+- `npm install va-bootstrap-css`
+-  main.ts文件中引入`import 'va-bootstrap-css/lib/index.css'`
 
 ## 本地构建 ##
 

@@ -34,7 +34,7 @@
 
 .va-flex-column { display: flex; flex-direction: column; }
 
-.flex-wrap { flex-wrap: wrap; }
+.va-flex-wrap { flex-wrap: wrap; }
 
 .va-col-0 { flex: none; width: 0%; }
 

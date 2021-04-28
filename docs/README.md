@@ -1,7 +1,7 @@
 ---
 home: true
-title: va-theme-chalk
-heroText: va-theme-chalk
+title: va-bootstrap-css
+heroText: va-bootstrap-css
 tagline: 通过组合class方式统一项目风格
 actionText: 快速上手 ➡
 actionLink: /guide/
@@ -9,7 +9,7 @@ meta:
   - name: description
     content: 通过组合class方式快速书写css的库, A library for quickly writing CSS by combining classes
   - name: keywords
-    content: va-theme-chalk
+    content: va-bootstrap-css
 features:
 - title: 方便快捷
   details: 通过npm安装或直接引入css文件

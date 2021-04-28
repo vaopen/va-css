@@ -1,5 +1,6 @@
 module.exports = {
-  title: 'va-theme-chalk',
+  base: '/va-css/',
+  title: 'va-bootstrap-css',
   description: 'A library for basic classes',
   themeConfig: {
     smoothScroll: true,
