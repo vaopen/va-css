@@ -5,19 +5,9 @@
 /* Placeholder -------------------------- */
 /* BEM -------------------------- */
 /* Va theme Chalk Variables */
-.bg-white { background-color: #ffffff; }
+.bg-black { background-color: #333; }
 
-.bg-black { background-color: #2f2f2f; }
-
-.bg-grey { background-color: #f5f5f5; }
-
-.bg-green { background-color: #19be6b; }
-
-.bg-blue { background-color: #61c3ff; }
-
-.bg-yellow { background-color: #ff9900; }
-
-.bg-red { background-color: #f35958; }
+.bg-red { background-color: #ff4d4f; }
 
 /* BEM support Func -------------------------- */
 /* Va theme Chalk Variables */
