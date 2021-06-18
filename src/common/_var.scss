@@ -13,6 +13,7 @@ $va-color-grey-7: #999 !default;
 $va-color-grey-8: #666 !default;
 
 $va-color-blue: #3687ef !default;
+$va-color-blue-1: #1890ff !default;
 $va-color-green: #52c41a !default;
 $va-color-yellow: #fadb14 !default;
 $va-color-orange: #faad14 !default;
@@ -24,11 +25,33 @@ $va-font-size-title-normal: 16px !default;
 $va-font-size-normal: 14px !default;
 $va-font-size-small: 12px !default;
 
+// menu - sider - background -color
+$va-sub-menu-bg: #001529 !default;
+$va-sub-hover-menu-bg: #1a2d3e !default;
+$va-menu-text-color: rgba(255, 255, 255, .65) !default;
+
+
 // // 主题背景色
 $bg-colors: (
   "black": $va-color-black,
   "red": $va-color-red,
 ) !default;
+
+// menu - 侧边导航栏色值
+
+// Sidebar
+$subMenuBg: $va-sub-menu-bg;
+$subMenuHover: $va-sub-hover-menu-bg;
+$subMenuActiveText: #fff;
+$menuBg: $va-sub-menu-bg;
+$menuBgHover: $va-sub-hover-menu-bg;
+$menuBgActive: $va-color-blue-1;
+$menuText: $va-menu-text-color;
+$menuActiveText: #fff;
+
+// Main Content
+$appMainBg: #fafafa;
+
 
 // dialog
 
