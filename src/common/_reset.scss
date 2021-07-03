@@ -3,3 +3,11 @@
 .el-divider {
   background-color: $va-color-grey-3;
 }
+
+.el-loading-mask {
+  background-color: transparent ;
+  .el-loading-spinner .circular {
+    height: 60px;
+    width: 60px;
+  }
+}
