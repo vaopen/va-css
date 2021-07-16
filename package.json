@@ -1,6 +1,6 @@
 {
   "name": "va-bootstrap-css",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "A library for va-bootstrap-css",
   "main": "lib/index.css",
   "style": "lib/index.css",
